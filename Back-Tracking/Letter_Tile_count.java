@@ -9,7 +9,6 @@ public class Letter_Tile_count {
                 freq[i]--;
                 c = c +counttile(freq, ans+ch)+1;
                 freq[i]++;
-
             }
         }
         return c;
