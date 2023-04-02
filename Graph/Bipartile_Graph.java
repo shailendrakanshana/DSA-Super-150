@@ -15,7 +15,7 @@ public class Bipartile_Graph {
                     if(visited.get(v.vtx) != v.lv) return false;
                     continue;
                 }
-
+                
                 visited.put(v.vtx,v.lv);
                 //Adding neightbours
                 for(int nbrs:graph[v.vtx]){

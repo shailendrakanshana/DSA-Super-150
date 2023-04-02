@@ -16,4 +16,5 @@ public class TestGraph {
         System.out.println(g.hasPath(2, 5));
         g.PrintAllPath(2, 5);
     }
+
 }
